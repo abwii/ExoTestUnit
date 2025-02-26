@@ -1,0 +1,170 @@
+{
+  "id": "5ff564ee-75ef-4c7f-bca5-8f7272fffe37",
+  "version": "2.0",
+  "name": "Exo3",
+  "url": "http://localhost/exo3/exo3.html",
+  "tests": [{
+    "id": "72338162-b15f-4d0e-a5e9-b76f1b649cde",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "a32f28cd-ffa3-4d3d-8ac5-0bacbd726c8c",
+    "name": "Add&SuppW/R",
+    "commands": [{
+      "id": "8f9d9ab8-a430-497f-ae5d-b392f6ff99ba",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/exo3/exo3.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7395eb1-bc39-4466-9078-3fb78c343062",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1151x985",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cc659f0a-ebe0-4658-b7b8-e8eaa97435e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd33b500-bf9a-4b03-bdbe-639e00380231",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "703e785f-bed6-48c7-9c4f-68818e8426fe",
+      "comment": "",
+      "command": "click",
+      "target": "id=taskInput",
+      "targets": [
+        ["id=taskInput", "id"],
+        ["css=#taskInput", "css:finder"],
+        ["xpath=//input[@id='taskInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd3ff5cb-5e25-46f3-8e7d-b12b8e45872b",
+      "comment": "",
+      "command": "type",
+      "target": "id=taskInput",
+      "targets": [
+        ["id=taskInput", "id"],
+        ["css=#taskInput", "css:finder"],
+        ["xpath=//input[@id='taskInput']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "aaaa"
+    }, {
+      "id": "bbd1a098-2945-49cd-97ed-02c14c8067f5",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@onclick='addTask()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ajouter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23d7ce5c-a6d3-41c9-a7c0-c1e9db5ed53e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button[@onclick='addTask()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ajouter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e48b9865-e357-4901-a348-851184584177",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=button:nth-child(3)",
+      "targets": [
+        ["css=button:nth-child(3)", "css:finder"],
+        ["xpath=//button[@onclick='addTask()']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Ajouter')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b7d58242-d96b-45d5-92c3-3b566b13ba83",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/exo3/exo3.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7046d47-b5c8-4ddc-9166-e97027e20fd0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.task-item",
+      "targets": [
+        ["css=.task-item", "css:finder"],
+        ["xpath=//div[@id='taskList']/div", "xpath:idRelative"],
+        ["xpath=//div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5519cbd-4fe4-4693-8ef0-78251bde842a",
+      "comment": "",
+      "command": "click",
+      "target": "css=button:nth-child(2)",
+      "targets": [
+        ["css=button:nth-child(2)", "css:finder"],
+        ["xpath=//button[@onclick='removeTask(this)']", "xpath:attributes"],
+        ["xpath=//div[@id='taskList']/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Supprimer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5241459-0f41-4a02-a633-bed2eaebf502",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f21a3a1c-1611-4987-9a6c-1c01259bbcdd",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d42392e7-2d86-48d1-8ed8-89e1ef835b6c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["72338162-b15f-4d0e-a5e9-b76f1b649cde"]
+  }],
+  "urls": ["http://localhost/exo3/exo3.html"],
+  "plugins": []
+}

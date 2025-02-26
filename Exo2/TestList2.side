@@ -10,7 +10,7 @@
       "id": "2b37d385-e4da-4b97-90b9-da3db217972f",
       "comment": "",
       "command": "open",
-      "target": "http://127.0.0.1:5500/html/exo2.html",
+      "target": "http://localhost/exo2/exo2.html",
       "targets": [],
       "value": ""
     }, {
@@ -106,7 +106,7 @@
       "id": "9f386147-fbc5-4d61-a1f3-41489dbbe337",
       "comment": "",
       "command": "open",
-      "target": "http://127.0.0.1:5500/html/exo2.html",
+      "target": "http://localhost/exo2/exo2.html",
       "targets": [],
       "value": ""
     }, {
@@ -250,6 +250,6 @@
     "timeout": 300,
     "tests": []
   }],
-  "urls": ["https://crm.akov-formation.fr/"],
+  "urls": ["https://crm.akov-formation.fr/", "http://localhost/exo2/exo2.html"],
   "plugins": []
 }
